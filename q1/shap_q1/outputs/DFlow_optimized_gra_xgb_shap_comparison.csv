@@ -1,0 +1,6 @@
+﻿target,model_type,feature,gra_rank,gra_degree,xgb_rank,importance,shap_rank,mean_abs_shap,mean_signed_shap,direction
+DFlow,optimized,ASM_A_MeanT,1,0.7353717338177966,1,0.25957373,1,0.09710174,0.004718007,Positive
+DFlow,optimized,ALD_A_SDevT,3,0.695457846708373,2,0.21311934,2,0.0889241,0.0010139401,Positive
+DFlow,optimized,ILD_I_SDevT,5,0.6811041754510346,3,0.20125894,3,0.061508253,-0.0072937864,Negative
+DFlow,optimized,ALM_A_MeanT,2,0.7004205690152052,5,0.14676183,4,0.0492612,-0.0061450703,Negative
+DFlow,optimized,CLD_C_SDevT,4,0.6817346315961765,4,0.17928609,5,0.04508813,0.0043317387,Positive

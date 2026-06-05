@@ -1,0 +1,124 @@
+[
+  {
+    "target": "DFlow",
+    "model_type": "baseline",
+    "features": [
+      "ASM_A_MeanT",
+      "ASD_A_SDevT",
+      "BSM_B_MeanT",
+      "BSD_B_SDevT",
+      "CSM_C_MeanT",
+      "CSD_C_SDevT",
+      "ISM_I_MeanT",
+      "ISD_I_SDevT",
+      "ALM_A_MeanT",
+      "ALD_A_SDevT",
+      "BLM_B_MeanT",
+      "BLD_B_SDevT",
+      "CLM_C_MeanT",
+      "CLD_C_SDevT",
+      "ILM_I_MeanT",
+      "ILD_I_SDevT"
+    ],
+    "best_params": {
+      "subsample": 0.7,
+      "reg_lambda": 0.5,
+      "n_estimators": 100,
+      "min_child_weight": 1,
+      "max_depth": 5,
+      "learning_rate": 0.03,
+      "gamma": 0.05,
+      "colsample_bytree": 0.85
+    },
+    "best_cv_rmse": 0.27751865088939665,
+    "cv_splits": 5,
+    "train_size": 123,
+    "test_size": 31
+  },
+  {
+    "target": "DFlow",
+    "model_type": "optimized",
+    "features": [
+      "ASM_A_MeanT",
+      "ALM_A_MeanT",
+      "ALD_A_SDevT",
+      "CLD_C_SDevT",
+      "ILD_I_SDevT"
+    ],
+    "best_params": {
+      "subsample": 0.7,
+      "reg_lambda": 1.0,
+      "n_estimators": 60,
+      "min_child_weight": 4,
+      "max_depth": 3,
+      "learning_rate": 0.12,
+      "gamma": 0.1,
+      "colsample_bytree": 0.85
+    },
+    "best_cv_rmse": 0.2838973134756088,
+    "cv_splits": 5,
+    "train_size": 123,
+    "test_size": 31
+  },
+  {
+    "target": "DGap",
+    "model_type": "baseline",
+    "features": [
+      "ASM_A_MeanT",
+      "ASD_A_SDevT",
+      "BSM_B_MeanT",
+      "BSD_B_SDevT",
+      "CSM_C_MeanT",
+      "CSD_C_SDevT",
+      "ISM_I_MeanT",
+      "ISD_I_SDevT",
+      "ALM_A_MeanT",
+      "ALD_A_SDevT",
+      "BLM_B_MeanT",
+      "BLD_B_SDevT",
+      "CLM_C_MeanT",
+      "CLD_C_SDevT",
+      "ILM_I_MeanT",
+      "ILD_I_SDevT"
+    ],
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 5.0,
+      "n_estimators": 100,
+      "min_child_weight": 1,
+      "max_depth": 2,
+      "learning_rate": 0.05,
+      "gamma": 0.1,
+      "colsample_bytree": 0.85
+    },
+    "best_cv_rmse": 0.4728790521621704,
+    "cv_splits": 5,
+    "train_size": 123,
+    "test_size": 31
+  },
+  {
+    "target": "DGap",
+    "model_type": "optimized",
+    "features": [
+      "CSM_C_MeanT",
+      "CLM_C_MeanT",
+      "BLD_B_SDevT",
+      "ILD_I_SDevT",
+      "CSD_C_SDevT"
+    ],
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 0.5,
+      "n_estimators": 100,
+      "min_child_weight": 2,
+      "max_depth": 3,
+      "learning_rate": 0.05,
+      "gamma": 0.1,
+      "colsample_bytree": 0.7
+    },
+    "best_cv_rmse": 0.4900296270847321,
+    "cv_splits": 5,
+    "train_size": 123,
+    "test_size": 31
+  }
+]

@@ -1,0 +1,7 @@
+﻿target,rho,top5_features
+DFlow,0.3,"ASM_A_MeanT, ALM_A_MeanT, ALD_A_SDevT, CLD_C_SDevT, ILD_I_SDevT"
+DFlow,0.5,"ASM_A_MeanT, ALM_A_MeanT, ALD_A_SDevT, CLD_C_SDevT, ILD_I_SDevT"
+DFlow,0.7,"ASM_A_MeanT, ALM_A_MeanT, ALD_A_SDevT, CLD_C_SDevT, ILD_I_SDevT"
+DGap,0.3,"CSM_C_MeanT, CLM_C_MeanT, BLD_B_SDevT, CSD_C_SDevT, ILD_I_SDevT"
+DGap,0.5,"CSM_C_MeanT, CLM_C_MeanT, BLD_B_SDevT, ILD_I_SDevT, CSD_C_SDevT"
+DGap,0.7,"CSM_C_MeanT, CLM_C_MeanT, BLD_B_SDevT, ILD_I_SDevT, CLD_C_SDevT"

@@ -1,0 +1,49 @@
+[
+  {
+    "target": "DFlow",
+    "model_name": "优化模型",
+    "expected_value": 0.11832523345947266,
+    "top5_features": [
+      "ASM_A_MeanT",
+      "ALD_A_SDevT",
+      "ILD_I_SDevT",
+      "ALM_A_MeanT",
+      "CLD_C_SDevT"
+    ],
+    "positive_features": [
+      "ASM_A_MeanT",
+      "ALD_A_SDevT",
+      "CLD_C_SDevT"
+    ],
+    "negative_features": [
+      "ILD_I_SDevT",
+      "ALM_A_MeanT"
+    ],
+    "high_sample": 34,
+    "low_sample": 11
+  },
+  {
+    "target": "DGap",
+    "model_name": "基线模型",
+    "expected_value": -0.016297398135066032,
+    "top5_features": [
+      "CSM_C_MeanT",
+      "CLM_C_MeanT",
+      "ASM_A_MeanT",
+      "ASD_A_SDevT",
+      "ILD_I_SDevT"
+    ],
+    "positive_features": [
+      "ASD_A_SDevT",
+      "ILD_I_SDevT",
+      "BSM_B_MeanT"
+    ],
+    "negative_features": [
+      "CSM_C_MeanT",
+      "CLM_C_MeanT",
+      "ASM_A_MeanT"
+    ],
+    "high_sample": 117,
+    "low_sample": 40
+  }
+]

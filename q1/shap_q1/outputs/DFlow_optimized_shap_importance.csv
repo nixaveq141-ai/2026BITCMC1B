@@ -1,0 +1,6 @@
+﻿feature,mean_abs_shap,mean_signed_shap,shap_rank,target,model_type,direction
+ASM_A_MeanT,0.09710174,0.004718007,1,DFlow,optimized,Positive
+ALD_A_SDevT,0.0889241,0.0010139401,2,DFlow,optimized,Positive
+ILD_I_SDevT,0.061508253,-0.0072937864,3,DFlow,optimized,Negative
+ALM_A_MeanT,0.0492612,-0.0061450703,4,DFlow,optimized,Negative
+CLD_C_SDevT,0.04508813,0.0043317387,5,DFlow,optimized,Positive

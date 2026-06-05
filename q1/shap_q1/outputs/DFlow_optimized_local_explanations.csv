@@ -1,0 +1,11 @@
+﻿case,sample_index,target,model_type,base_value,prediction,actual,feature,feature_value,shap_value
+high_prediction,34,DFlow,optimized,0.11832523345947266,0.980502188205719,1.0,ILD_I_SDevT,0.56,0.2777614
+high_prediction,34,DFlow,optimized,0.11832523345947266,0.980502188205719,1.0,ALD_A_SDevT,0.21,0.27127847
+high_prediction,34,DFlow,optimized,0.11832523345947266,0.980502188205719,1.0,ASM_A_MeanT,-4.51,0.12836178
+high_prediction,34,DFlow,optimized,0.11832523345947266,0.980502188205719,1.0,CLD_C_SDevT,0.25,0.10902897
+high_prediction,34,DFlow,optimized,0.11832523345947266,0.980502188205719,1.0,ALM_A_MeanT,-4.72,0.07574637
+low_prediction,11,DFlow,optimized,0.11832523345947266,-0.8459438681602478,-1.0,ASM_A_MeanT,-4.45,-0.5123322
+low_prediction,11,DFlow,optimized,0.11832523345947266,-0.8459438681602478,-1.0,ALM_A_MeanT,-4.53,-0.28911337
+low_prediction,11,DFlow,optimized,0.11832523345947266,-0.8459438681602478,-1.0,CLD_C_SDevT,0.01,-0.09963067
+low_prediction,11,DFlow,optimized,0.11832523345947266,-0.8459438681602478,-1.0,ILD_I_SDevT,0.4,-0.092061244
+low_prediction,11,DFlow,optimized,0.11832523345947266,-0.8459438681602478,-1.0,ALD_A_SDevT,0.15,0.028868295
