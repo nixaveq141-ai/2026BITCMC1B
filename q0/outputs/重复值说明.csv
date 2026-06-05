@@ -1,0 +1,2 @@
+﻿row_count,duplicate_row_count,handling,reason
+154,10,保留重复记录,电火花加工数据可能包含重复工况下的重复试验，删除会损失频次信息，不利于后续建模。
