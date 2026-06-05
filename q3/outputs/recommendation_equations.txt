@@ -1,0 +1,13 @@
+﻿Q3 recommendation objective:
+J(F,G) = lambda1*(F - F_hat)^2 + lambda2*(G - G_hat)^2 + lambda3*(G - c(x) - beta*F)^2
+
+Selected method: full_joint_recommendation
+Selected lambda config: {'method': 'full_joint_recommendation', 'lambda1': 1.0, 'lambda2': 4.0, 'lambda3': 0.25, 'rmse_dflow': 0.12751534261266767, 'mae_dflow': 0.016260162601626018, 'r2_dflow': 0.8956743002544529, 'rmse_dgap': 0.15617376188860607, 'mae_dgap': 0.024390243902439025, 'r2_dgap': 0.9444109671587828, 'joint_rmse_mean': 0.14184455225063686, 'joint_mae_mean': 0.02032520325203252, 'joint_r2_mean': 0.9200426337066179, 'collaboration_rmse': 0.9766916024013927, 'accuracy_dflow': 0.983739837398374, 'accuracy_dgap': 0.975609756097561, 'joint_pair_accuracy': 0.959349593495935}
+
+Collaboration prior beta: -0.502643
+c(x) = 0.049961 + (0.336378)*CSM_C_MeanT + (0.230324)*CLM_C_MeanT + (-0.104204)*BLD_B_SDevT + (0.057568)*CSD_C_SDevT + (0.043125)*ILD_I_SDevT
+
+Allowed DFlow levels: [-1.0, 0.0, 1.0]
+Allowed DGap levels: [-1.0, 0.0, 1.0]
+Feasible DFlow bounds: (-1.0, 1.0)
+Feasible DGap bounds: (-1.0, 1.0)

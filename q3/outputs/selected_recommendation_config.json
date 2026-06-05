@@ -1,0 +1,95 @@
+﻿{
+  "selected_method": "full_joint_recommendation",
+  "dual_output_training_strategy": {
+    "evaluation": {
+      "source": "retrained_on_current_split",
+      "estimator_wrapper": "MultiOutputRegressor",
+      "base_estimator": "XGBRegressor",
+      "best_params": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_lambda": 3.0,
+        "gamma": 0.1
+      },
+      "note": "Used only for hold-out evaluation inside Q3 to avoid leakage."
+    },
+    "deployment": {
+      "source": "loaded_existing_q2_model",
+      "model_path": "C:\\Users\\33056\\PycharmProjects\\2026BITCMC1B\\q2\\q2_dual_output_xgb_shap\\dual_output_xgb_shap_outputs\\dual_output_xgb_model.joblib",
+      "estimator_wrapper": "MultiOutputRegressor",
+      "base_estimator": "XGBRegressor",
+      "note": "Q3 directly loads the persisted dual-output model produced in Q2.",
+      "best_params": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_lambda": 3.0,
+        "gamma": 0.1
+      }
+    }
+  },
+  "allowed_levels": {
+    "DFlow": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "DGap": [
+      -1.0,
+      0.0,
+      1.0
+    ]
+  },
+  "feasible_bounds": {
+    "DFlow": [
+      -1.0,
+      1.0
+    ],
+    "DGap": [
+      -1.0,
+      1.0
+    ]
+  },
+  "collaboration_prior": {
+    "intercept": 0.049960780277057,
+    "beta": -0.5026429312144147,
+    "center_coefs": {
+      "CSM_C_MeanT": 0.336378275480282,
+      "CLM_C_MeanT": 0.2303235611819606,
+      "BLD_B_SDevT": -0.1042042436390007,
+      "CSD_C_SDevT": 0.0575675754221848,
+      "C": 0.0431247234886164
+    },
+    "synergy_weights": {
+      "CSM_C_MeanT": 0.17342662468222342,
+      "CLM_C_MeanT": 0.32819447632959753,
+      "C": 0.07721083811225438,
+      "CSD_C_SDevT": 0.17554948609588833,
+      "BLD_B_SDevT": 0.24561857478003632
+    }
+  },
+  "selected_lambdas": {
+    "method": "full_joint_recommendation",
+    "lambda1": 1.0,
+    "lambda2": 4.0,
+    "lambda3": 0.25,
+    "rmse_dflow": 0.12751534261266767,
+    "mae_dflow": 0.016260162601626018,
+    "r2_dflow": 0.8956743002544529,
+    "rmse_dgap": 0.15617376188860607,
+    "mae_dgap": 0.024390243902439025,
+    "r2_dgap": 0.9444109671587828,
+    "joint_rmse_mean": 0.14184455225063686,
+    "joint_mae_mean": 0.02032520325203252,
+    "joint_r2_mean": 0.9200426337066179,
+    "collaboration_rmse": 0.9766916024013927,
+    "accuracy_dflow": 0.983739837398374,
+    "accuracy_dgap": 0.975609756097561,
+    "joint_pair_accuracy": 0.959349593495935
+  }
+}
