@@ -1,0 +1,6 @@
+﻿role,features
+forward_master_core_set,"ASM_A_MeanT, ALM_A_MeanT, ALD_A_SDevT, CLD_C_SDevT, C"
+forward_slave_supplement_set,"CSM_C_MeanT, CLM_C_MeanT, BLD_B_SDevT, CSD_C_SDevT, C"
+common_synergy_index,C = ILD_I_SDevT
+reverse_master_core_set,"CSM_C_MeanT, CLM_C_MeanT, BLD_B_SDevT, CSD_C_SDevT, C"
+reverse_slave_supplement_set,"ASM_A_MeanT, ALM_A_MeanT, ALD_A_SDevT, CLD_C_SDevT, C"

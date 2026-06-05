@@ -1,0 +1,11 @@
+﻿Forward master:
+DFlow = 0.1230 + 0.1290*ASM_A_MeanT - 0.1709*ALM_A_MeanT + 0.0710*ALD_A_SDevT + 0.0718*CLD_C_SDevT - 0.0295*C
+
+Forward collaborative slave:
+DGap_collaborative = 0.0500 + 0.3364*CSM_C_MeanT + 0.2303*CLM_C_MeanT - 0.1042*BLD_B_SDevT + 0.0576*CSD_C_SDevT + 0.0431*C - 0.5026*DFlow
+
+Reverse master:
+DGap = -0.0134 + 0.4063*CSM_C_MeanT + 0.1198*CLM_C_MeanT - 0.1427*BLD_B_SDevT - 0.0075*CSD_C_SDevT + 0.0873*C
+
+Reverse collaborative slave:
+DFlow_collaborative = 0.1212 + 0.1086*ASM_A_MeanT - 0.1886*ALM_A_MeanT + 0.0787*ALD_A_SDevT + 0.0775*CLD_C_SDevT - 0.0205*C - 0.1163*DGap

@@ -1,0 +1,6 @@
+﻿criterion,value,interpretation
+forward_lambda_nonzero,-0.5026429312144147,forward 方向联动系数
+forward_actual_rmse_gain,0.06476731644142042,已知 DFlow 时协同改进量
+forward_deploy_rmse_gap,0.0006832458227090665,部署场景相对独立模型差值
+reverse_actual_rmse_gain,0.013166928112962994,已知 DGap 时反向协同改进量
+forward_reverse_cv_gap,0.12203246205870899,forward/reverse 部署型重复CV差值（正值表示 reverse 更优）
